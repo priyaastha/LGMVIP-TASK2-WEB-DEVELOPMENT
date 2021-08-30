@@ -1,0 +1,122 @@
+.getuser
+{
+    border: 2px solid rgb(12, 11, 11);
+    border-radius: 0px;
+    padding:  10px 40px;
+    background-color: #16bd1e;
+    position: left;
+    margin-top: 100px;
+}
+
+.navbar
+{
+    background-color:#fcffd6;
+    color: white;
+    height: 200vh;
+    overflow: hidden;
+    height: 90px;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+}
+.nav-data
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.brand
+{
+  /* background: -webkit-linear-gradient(#ce8c54, #333); */
+  background: -webkit-linear-gradient(brown,brown);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+}
+
+.users
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+    width: 100vw;
+    
+
+}
+.user-profile
+{
+    /* flex-basis: 40%; */
+    height: 320px;
+    border:2px solid rgb(1, 6, 8);
+    position: relative;
+    border-radius: .5rem;
+    margin: 5rem 1rem;
+    /* box-shadow: 0px 0px 6px black; */
+    /* box-shadow: 0px 0px 9px #ff9800; */
+    min-width: 300px;
+    max-width: 400px;
+    background: -webkit-linear-gradient(#ffffff 10%,#ffffff);
+}
+.avatar 
+{
+    position: absolute;
+    /* left: 28%; */
+    top: -20%;
+    border: 2px solid #812509;
+    width: 150px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    width: 125px;
+    height: 125px;
+}
+.avatar img
+{
+    width: 100%;
+    height: 100%;
+    /*  */
+}
+.user-profile h4
+{
+    text-align: center;
+    color: black;
+}
+.user-profile h6
+{
+    text-align: center;
+    color:  black;
+}
+.user-data
+{
+    /* position: absolute; */ 
+    margin: auto;
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 33%; */
+    width: 80%;
+    text-align: center;
+    margin-top: 6rem;
+    color: rgb(0, 0, 0);
+}
+
+.middle
+{
+  position: absolute;
+  
+  right: 200;
+  margin: auto;
+  margin-top: 20rem;
+}
+.but{
+    margin-left: 270px;
+    
+}
